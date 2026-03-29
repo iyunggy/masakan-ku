@@ -23,7 +23,7 @@ export const metadata = {
     siteName: 'Puspitafood',
     images: [
       {
-        url: '/images/hero-banner.png',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Puspitafood - Kedai Rumahan Betawi',

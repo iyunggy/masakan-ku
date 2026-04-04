@@ -11,22 +11,23 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const baseUrl = 'https://masakan-ku.com';
 
 export const metadata = {
-  title: 'Puspitafood | Asli Ulekan Betawi - Gado-Gado & Karedok',
-  description: 'Cita rasa legendaris dari dapur Puspitafood. Bumbu kacang kental diulek dadakan, tanpa pengawet, murni rasa tradisional di Larangan, Tangerang.',
-  keywords: ['Gado-gado Betawi', 'Karedok Tangerang', 'Puspitafood', 'Masakan Tradisional', 'Kuliner Larangan'],
+  title: 'Puspitafood | Asli Ulekan Betawi — Gado-Gado & Karedok',
+  description: 'Cita rasa legendaris dari dapur Puspitafood. Bumbu kacang kental diulek dadakan...',
+  keywords: ['Gado-gado Betawi', 'Karedok Tangerang', 'Puspitafood'],
   openGraph: {
     title: 'Puspitafood | Asli Ulekan Betawi',
     description: 'Nikmati Gado-Gado dan Karedok ulekan dadakan dengan rasa autentik tradisional.',
-    url: 'https://masakan-ku.com',
+    url: baseUrl,
     siteName: 'Puspitafood',
     images: [
       {
-        url: '/images/og-image.png',
+        url: `${baseUrl}/images/og-image.png`, 
         width: 1200,
         height: 630,
-        alt: 'Puspitafood - Kedai Rumahan Betawi',
+        alt: 'Puspitafood — Kedai Rumahan Betawi',
       },
     ],
     locale: 'id_ID',
